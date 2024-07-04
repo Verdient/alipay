@@ -1,0 +1,30 @@
+{
+    "name": "verdient/alipay",
+    "description": "alipay",
+    "type": "library",
+    "keywords": [
+        "AliPay"
+    ],
+    "homepage": "https://github.com/Verdient/alipay",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Verdient.",
+            "email": "fagui.zhu@foxmail.com",
+            "homepage": "https://github.com/Verdient"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/Verdient/alipay/issues",
+        "source": "https://github.com/Verdient/alipay"
+    },
+    "require": {
+        "php": ">=7.0.0",
+        "verdient/http-api": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Verdient\\AliPay\\": "src"
+        }
+    }
+}
