@@ -12,7 +12,6 @@ use Verdient\HttpAPI\AbstractClient;
  */
 class AliPay extends AbstractClient
 {
-
     /**
      * @inheritdoc
      * @author Verdient。

@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Verdient\AliPay;
 
 use Exception;
-use PDO;
 use Verdient\http\Request as HttpRequest;
 use Verdient\http\Response as HttpResponse;
 
